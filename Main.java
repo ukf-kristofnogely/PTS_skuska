@@ -34,9 +34,9 @@ public class Main {
             //zadame login a heslo do prislusnych policiek
             Thread.sleep(1000);
             WebElement login = driver.findElement(By.id("login"));
-            login.sendKeys("305526");
+            login.sendKeys("******");
             WebElement password = driver.findElement(By.id("heslo"));
-            password.sendKeys("9811261867");
+            password.sendKeys("**********");
             //klikneme na login
             WebElement loginButton = driver.findElement(By.id("login-form-submit-btn"));
             loginButton.click();
